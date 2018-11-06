@@ -168,6 +168,11 @@ h3 span {
   font-size: 2em;
 }
 
+.navbar-logo{
+  height: 40px;
+  
+}
+
 /*
   ############################################################
   HOME
@@ -300,7 +305,7 @@ h3 span {
   display: inline-block;
   width: 200px;
   height: 200px;
-  margin-bottom: 20px;
+  margin-bottom: -35px;
   transition: all .4s;
   
 }
