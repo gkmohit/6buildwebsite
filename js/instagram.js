@@ -1,4 +1,4 @@
-var token = '457048239.9a45e29.77735e307bcf4c4f805655265fc35ae3';
+var token = '7494369411.34df56b.dcae2e20ebf54d9081fb1eceb5e14411';
 var num_photos = 15;
 var instagram
  
@@ -15,7 +15,7 @@ $.ajax({
         
         for( i = 0; i < length; i++){
             var id = "#instaImg" + i;
-            var url = response.data[i].images.low_resolution.url;
+            var url = response.data[i].images.standard_resolution.url;
             var caption = response.data[i].caption;
             if( caption != null){
                 caption = caption.text
